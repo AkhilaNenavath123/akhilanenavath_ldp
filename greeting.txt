@@ -1,12 +1,8 @@
 
 HELLO WORLD
-<<<<<<< HEAD
 Hello all
 All
-=======
-Hello everyone 
-Here 
->>>>>>>]c
-IQ
-:q
+Merge
+
+
 
