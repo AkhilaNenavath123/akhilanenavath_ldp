@@ -3,7 +3,6 @@ HELLO WORLD
 Hello all
 All
 Mergesort
-Uppercase
 
 
 
