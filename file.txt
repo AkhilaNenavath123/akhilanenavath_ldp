@@ -3,3 +3,5 @@ Commit B
 Commit A
 Commit error
 Add error for fixing
+Stash commit
+Stash commit2
