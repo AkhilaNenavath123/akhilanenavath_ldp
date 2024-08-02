@@ -1,9 +1,9 @@
 from functions import *
-
+from constants import seed
 
 def main():
     # Example usage
-    seed = 12345  # Dynamic key (can be any number)
+     # Dynamic key (can be any number)
     key = generate_permutation_key(seed)
     permutation_table = create_permutation_table(key)
 
