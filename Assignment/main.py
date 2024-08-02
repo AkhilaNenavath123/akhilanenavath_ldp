@@ -7,7 +7,7 @@ def main():
     key = generate_permutation_key(seed)
     permutation_table = create_permutation_table(key)
 
-    message = "Hello, World! 123"
+    message = input()
     encoded_message = encode_message(message, permutation_table)
     decoded_message = decode_message(encoded_message, permutation_table)
 
