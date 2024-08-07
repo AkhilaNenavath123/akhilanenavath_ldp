@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab">
+            <button class="tablinks" onclick="openTab(event, 'Home')">Home</button>
+            <button class="tablinks" onclick="openTab(event, 'AboutMe')">About Me</button>
+            <button class="tablinks" onclick="openTab(event, 'MyGallery')">My Gallery</button>
+            <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+        </div>
+
+        <div class="tab-content-wrapper">
+            <div id="Home" class="tabcontent">
+                <p id="para">Welcome to my Web Page</p>
+                <div id="more">
+                    <p>I’m Akhila, a development intern at Zemoso Technologies, where I’m diving into full-stack development.</p>
+                    <p>I’m actively learning and applying skills in both front-end technologies like HTML, CSS, and JavaScript, and back-end technologies such as Python and SQL.</p>
+                    <p>Passionate about creating efficient, user-friendly applications, I’m excited to explore new challenges and opportunities in the tech world.</p>
+                </div>
+    
+            </div>
+            
+
+            <div id="AboutMe" class="tabcontent">
+                <div>
+                    <div id="about">
+                        <p><strong>Full Name</strong>: Nenavath Akhila</p>
+                        <p>About Me: Dynamic and adaptable professional adept at leveraging Python, SQL, and C to engineer efficient solutions. Proficient in data structures and adept at problem-solving, I infuse every project with energy, enthusiasm, and a robust work ethic.</p>
+                        <p>Skills: Python, C, Data structures, SQL, HTML & CSS.</p>
+                        <p>Projects:</p>
+                        <ul>
+                           <li id="pr">MODIFIED FUZZY C-MEANS CLUSTERING ALGORITHM TO IDENTIFY IMAGE PATTERNS | MAJOR PROJECT – RESEARCH | Jan 2024 – May 2024 | Hyderabad
+                           <br>On the basis of skin cancer dataset, the soft clustering algorithm known as Fuzzy C-Mean algorithm is being applied to cluster the cells accordingly. Developed a modified algorithm which is robust, accurate compared to FCM. Integration of Fuzzy C-means algorithm with Local Linear Embedding algorithm provides better and accurate results.</li>
+                           <li id="pr">SENTIMENT ANALYSIS USING MACHINE LEARNING | MINOR PROJECT | Feb 2023 - July 2023 | Hyderabad
+                           <br>Led a team project on sentiment analysis, extracting insights for brand management, customer feedback, and market research. Analyzed consumer preferences, trends, and public sentiment to drive informed decisions. Developed skills in data analysis and strategic thinking, contributing to enhanced brand perception and customer experiences. Implemented cutting edge technology to deliver actionable insights across sectors. Our project showcased the pivotal role of sentiment analysis in modern technology.</li>
+                        </ul>
+                        <p><strong>Hobbies</strong>: Painting, Crafting</p>
+                    </div>
+                    <div>
+                        <img src="picA-Photoroom.png-Photoroom.png" width="200px">
+                    </div>
+                </div>
+            </div>
+
+            <div id="MyGallery" class="tabcontent">
+                <p>Gallery of my work.</p>
+                <div id="images">
+                    <img src="naturepic1.jpg">
+                    <img src="naturepic2.webp">
+                    <img src="naturepic3.webp">
+                    <img src="naturepic4.jpg">
+                    <img src="naturepic1.jpg">
+                    <img src="naturepic2.webp">
+                    <img src="naturepic3.webp">
+                    <img src="naturepic4.jpg">
+                    <img src="naturepic1.jpg">
+                    <img src="naturepic2.webp">
+                    <img src="naturepic3.webp">
+                    <img src="naturepic4.jpg">
+                    <!-- More images -->
+                </div>
+            </div>
+
+            <div id="Contact" class="tabcontent">
+                <p></p><br><br>
+                <form id="myForm" action="" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" pattern="[a-zA-Z\s]+" required/>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required/>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required minlength="10" maxlength="120"></textarea>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="info">
+                    <div class="g-item1">
+                        <i class="fa-solid fa-phone"></i> <span>Mobile Number: +91 9014948717</span>
+                    </div>
+                    <div class="g-item2">
+                        <i class="fa-regular fa-envelope"></i> <span>Email ID: akhila.nenavath@zemosolabs.com</span>
+                    </div>
+                    <div class="g-item3">
+                        <i class="fa-brands fa-linkedin"></i> <span><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/akhilanenavath" target="_blank">linkedin</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
