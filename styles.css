@@ -3,6 +3,7 @@ body {
     background-color: #f9f9f9;
     margin: 0;
     padding: 0; 
+    overflow-x: hidden; /* Remove horizontal scroll*/
 }
 
 .tab-container {
@@ -266,3 +267,10 @@ button:hover {
 .info a:hover {
     text-decoration: underline;
 }  
+footer{
+    background-color: #7f7979; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
